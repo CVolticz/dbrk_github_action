@@ -19,6 +19,6 @@ jobs:
           DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
         run: |
-          databricks repos update "/Workspace/Repos/ktrinh@ischool.berkeley.edu/dbrk_github_action" --branch test
+          databricks repos update "/Workspace/Repos/ktrinh@ischool.berkeley.edu/dbrk_github_action" --branch main
         
 
